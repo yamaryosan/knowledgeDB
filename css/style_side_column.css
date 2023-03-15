@@ -1,0 +1,130 @@
+.reccomend_article_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.clickable_area {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+
+.article_unit_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid #0a0a0a;
+    margin: 0px 5% 5px 5%;
+}
+
+.article_unit_container * {
+    margin: 5px auto 0px auto;
+    padding: 0px 5px;
+}
+
+.article_unit_container img {
+    width: 90%;
+}
+
+.article_title {
+    font-size: 0.9rem;
+}
+
+.article_date {
+    font-size: 0.8rem;
+    color: #616161;
+}
+
+.search_form_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search_form_container * {
+    margin: 0.2rem 0;
+}
+
+.search_window_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search_form_container * {
+    margin-right: 0.3rem;
+}
+
+.search_form_container input[type="text"] {
+    display: inline-block;
+    width: 50%;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+}
+
+.search_form_container a {
+    width: 15%;
+}
+
+.search_form_container img {
+    width: 60%;
+}
+
+.search_target_selection_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search_target_selection_container * {
+    margin-right: 0.3rem;
+}
+
+.search_target_selection_container select {
+    display: inline-block;
+    width: 40%;
+}
+
+.random_page_btn_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 1.5rem;
+    border-radius: 2px;
+    border: 1px black solid;
+    box-shadow: 1px 1px black;
+    transition: 500ms;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    position: relative;
+    top: 1px;
+    box-shadow: none;
+}
+
+.btn a:active {
+    color: #d40505;
+    transition: none;
+}
+
+.btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: #0a0a0a;
+}
