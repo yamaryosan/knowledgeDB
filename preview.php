@@ -75,7 +75,6 @@ if (count($searchResult) > $requestRetryHitNumber) {
             <img src="./images/toTopIcon.png">
         </a>
     </div>
-    <script type="module" src="./js/previewPageMoveController.js"></script>
     <script src="./js/toTopButtonScroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.js"></script>
 </body>

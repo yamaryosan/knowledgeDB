@@ -23,7 +23,7 @@
             </div>
         </main>
     </div>
-    <?php if (empty($_POST["search_word"]) && isset($_COOKIE["search_word_cookie"])) : ?>
+    <?php if (empty($_POST["search_word"])) : ?>
         <script>
             alert(<?php echo "検索語を入力してください"; ?>)
         </script>
